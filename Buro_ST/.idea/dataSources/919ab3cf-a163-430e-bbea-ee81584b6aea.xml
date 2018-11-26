@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="DLS_db@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="DLS_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="Airline"/>
+    <schema id="4" parent="1" name="ap"/>
+    <schema id="5" parent="1" name="APC"/>
+    <schema id="6" parent="1" name="APPmanagement"/>
+    <schema id="7" parent="1" name="BLABLA"/>
+    <schema id="8" parent="1" name="examTest"/>
+    <schema id="9" parent="1" name="examTesting"/>
+    <schema id="10" parent="1" name="GameDB"/>
+    <schema id="11" parent="1" name="GameEx"/>
+    <schema id="12" parent="1" name="information_schema"/>
+    <schema id="13" parent="1" name="KEA_AES"/>
+    <schema id="14" parent="1" name="KendoUI"/>
+    <schema id="15" parent="1" name="LOGIN"/>
+    <schema id="16" parent="1" name="mysql"/>
+    <schema id="17" parent="1" name="om"/>
+    <schema id="18" parent="1" name="performance_schema"/>
+    <schema id="19" parent="1" name="projectcontrollingKEA"/>
+    <schema id="20" parent="1" name="registration"/>
+    <schema id="21" parent="1" name="sys"/>
+    <schema id="22" parent="1" name="System_Integration"/>
+    <schema id="23" parent="1" name="DDDDD"/>
+    <schema id="24" parent="1" name="DDDLS"/>
+    <table id="25" parent="2" name="Classes"/>
+    <table id="26" parent="2" name="Courses"/>
+    <table id="27" parent="2" name="RecordsS"/>
+    <table id="28" parent="2" name="RecordsT"/>
+    <table id="29" parent="2" name="Students"/>
+    <table id="30" parent="2" name="Teachers"/>
+    <column id="31" parent="25" name="idClasses">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="25" name="comment">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <key id="33" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idClasses</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="34" parent="26" name="idCourses">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="26" name="comment">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <index id="36" parent="26" name="idCourses_UNIQUE">
+      <ColNames>idCourses</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="37" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idCourses</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="38" parent="26" name="idCourses_UNIQUE">
+      <ColNames>idCourses</ColNames>
+      <UnderlyingIndexName>idCourses_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="39" parent="27" name="idRecordsS">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="40" parent="27" name="Date">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="27" name="Classes">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="27" name="Courses">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="27" name="Hours">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="27" name="Code">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="27" name="Student">
+      <Position>7</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="27" name="idRecordsS_UNIQUE">
+      <ColNames>idRecordsS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idRecordsS</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="48" parent="27" name="idRecordsS_UNIQUE">
+      <ColNames>idRecordsS</ColNames>
+      <UnderlyingIndexName>idRecordsS_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="49" parent="28" name="idRecords">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="50" parent="28" name="Date">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="28" name="Classes">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="28" name="Courses">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="28" name="Hours">
+      <Position>5</Position>
+      <DataType>decimal(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="28" name="Code">
+      <Position>6</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="55" parent="28" name="idRecords_UNIQUE">
+      <ColNames>idRecords</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idRecords</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="57" parent="28" name="idRecords_UNIQUE">
+      <ColNames>idRecords</ColNames>
+      <UnderlyingIndexName>idRecords_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="58" parent="29" name="idStudents">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="29" name="username">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="29" name="email">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="29" name="password">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="62" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idStudents</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="30" name="idTeachers">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="30" name="username">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="30" name="email">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="30" name="password">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="67" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idTeachers</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

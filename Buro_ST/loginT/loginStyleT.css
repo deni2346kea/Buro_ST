@@ -1,0 +1,101 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+	background: #F8F8FF;
+}
+
+
+
+
+
+
+
+form, .content {
+	width: 30%;
+	height: 80%;
+	margin: 0px auto;
+	padding: 30px;
+	border: 1px solid #B0C4DE;
+	border-radius: 10px;
+	background-image: url("../media/logPho.jpg");
+	background-size: 100%;
+
+
+}
+.input-group {
+	margin: 30px 0px 10px 0px;
+
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	color: white;
+	font-size: 15px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #56CB84;
+}
+.btn {
+	padding: 10px;
+	width: 355px;
+	font-size: 15px;
+	color: white;
+	background: #56CB84;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+
+#wel{
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	padding-top: 70px;
+}
+
+#notam{
+	color: white;
+	padding-top: 40px;
+}
+
+#buttonSS{
+	padding: 10px;
+	width: 55px;
+	font-size: 15px;
+	color: white;
+	background: purple;
+	border: none;
+	border-radius: 5px;
+}
+
+#regiSS{
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	padding-top: 40px;
+}

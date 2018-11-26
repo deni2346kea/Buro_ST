@@ -1,0 +1,130 @@
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #231F20;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+}
+
+
+
+
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+
+    text-align: inherit;
+    background-size: 100%;
+    background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+    width:96%;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+
+
+
+/* Header **/
+header{
+    background: #221E20;
+    color:#111111;
+    padding-top:0px;
+
+}
+
+
+
+
+header li{
+    float:left;
+    display:inline;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    float: right;
+    margin-top: 15px;
+    margin-left: 18px;
+    font-size:16px;
+    color:#043845;
+
+}
+
+
+
+
+header #barring{
+    float: right;
+    margin-right: 2%;
+}
+
+header #barring #nav1{
+    float: left;
+    padding-right: 130px;
+    font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+header #barring #nav2{
+    float: left;
+    margin-top: 16px;
+    width: 10px;
+    height: auto;
+}
+
+
+
+
+header #logo{
+    width: 79px;
+    height: auto;
+    padding-left: 40px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/media/hero.jpg");
+    background-attachment: fixed;
+
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
