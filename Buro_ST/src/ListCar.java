@@ -1,7 +1,5 @@
 public class ListCar {
 
-    private String location;
-
     public ListCar(String location, String make, String model, String avaStart, String avaEnd, int price) {
         this.location = location;
         this.make = make;
@@ -59,6 +57,7 @@ public class ListCar {
         this.price = price;
     }
 
+    private String location;
     private String make;
     private String model;
     private String avaStart;
