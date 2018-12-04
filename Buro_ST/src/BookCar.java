@@ -16,6 +16,8 @@ public class BookCar {
         this.price = price;
     }
 
+
+
     public String getLocation() {
         return location;
     }
