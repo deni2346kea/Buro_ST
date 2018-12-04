@@ -3,8 +3,8 @@ Software Testing Final Project - Software development, 2. semester 2018.
 *[Author - Denis Kutnar]
 
 ##Names:
-    Denis
-    Burim
+    Denis,
+    Burim,
     John
    
    
