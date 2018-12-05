@@ -1,0 +1,531 @@
+{
+  "id": "86f1ee6f-b167-4930-a244-73b8dbbfe274",
+  "version": "1.1",
+  "name": "Buro_Rental",
+  "url": "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05",
+  "tests": [{
+    "id": "327b759a-873d-4cd0-9077-24d498a66ddf",
+    "name": "Login_withCredentials",
+    "commands": [{
+      "id": "c90f66be-6649-4dac-abee-b42cae1c9e92",
+      "comment": "",
+      "command": "open",
+      "target": "/Buro_ST/DLS_Mandatroy/home.php?_ijt=l02006dcpgcsalsleadto6pu0n",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66182890-99e4-43db-96cd-1df7bd430272",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33f5d611-5ceb-49aa-8ea3-417180f5ddfa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../loginT/loginT.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a37a66a-7bd9-4366-8f24-8f513fa5827d",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc899824-f199-409e-91be-5ec462851d68",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Trine"
+    }, {
+      "id": "45c01e08-a401-4527-a975-b5cb1da2e600",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1ebaa80-02bf-4c77-b067-fcaf22243f62",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aaa"
+    }, {
+      "id": "7debbba6-ffe7-4b96-ba1b-a00ea493a514",
+      "comment": "",
+      "command": "click",
+      "target": "name=login_user",
+      "targets": [
+        ["name=login_user", "name"],
+        ["css=button[name=\"login_user\"]", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='login_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bcb3d636-7687-4160-9d86-389264f198f9",
+    "name": "Register_wrongPassword",
+    "commands": [{
+      "id": "b58a3081-b97c-4036-b184-3edc75491f20",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3fab2cd-a6d7-4ce6-93f4-6fcbfca55547",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc458be1-20a6-428d-bf83-0dc02c1ce330",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../loginT/loginT.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa6fe5b0-8703-44f2-9630-952f4e0ac9e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonSS",
+      "targets": [
+        ["id=buttonSS", "id"],
+        ["linkText=Sign up", "linkText"],
+        ["css=#buttonSS", "css"],
+        ["css=#buttonSS", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign up')]", "xpath:link"],
+        ["xpath=//a[@id='buttonSS']", "xpath:attributes"],
+        ["xpath=//p[@id='notam']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'registerT.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca8dace-37ff-425a-9cd8-c21c4d1ecccc",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e506a5-f24e-4e30-8cf9-8a1ec69de9e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kea"
+    }, {
+      "id": "edd47f05-fc0a-4feb-9557-4b437b8ab41b",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9be7241-24a4-4ac2-b7dd-671b3a9e6618",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "kea@kea.dk"
+    }, {
+      "id": "a029d06d-25da-408f-9e25-97cffd02a620",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_1",
+      "targets": [
+        ["name=password_1", "name"],
+        ["css=input[name=\"password_1\"]", "css"],
+        ["css=.input-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='password_1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "aaaaaaa"
+    }, {
+      "id": "e4f40a0a-2ae6-40cd-a3ba-f29971843e02",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_2",
+      "targets": [
+        ["name=password_2", "name"],
+        ["css=input[name=\"password_2\"]", "css"],
+        ["css=.input-group:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='password_2']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "aaa"
+    }, {
+      "id": "8cc39707-59a8-4af5-9b36-dd16f0d9e8e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg_user",
+      "targets": [
+        ["name=reg_user", "name"],
+        ["css=button[name=\"reg_user\"]", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='reg_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "909753f5-f5de-4566-9b4f-6b69dff7cb8c",
+    "name": "ListYourCar_noAccess",
+    "commands": [{
+      "id": "c912d718-de6a-44d6-8656-c760fc590315",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa802bbd-682c-4b23-b225-69b0b4ac7a44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e49fbef-d803-4260-a7ca-e4697c84b2d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List your car",
+      "targets": [
+        ["linkText=List your car", "linkText"],
+        ["css=a", "css"],
+        ["css=.current > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List your car')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ListCar.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e67b7e-9902-460f-ab8a-a156ecc80df3",
+      "comment": "",
+      "command": "click",
+      "target": "id=logoutPossition",
+      "targets": [
+        ["id=logoutPossition", "id"],
+        ["linkText=Log out", "linkText"],
+        ["css=#logoutPossition", "css"],
+        ["css=#logoutPossition", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[@id='logoutPossition']", "xpath:attributes"],
+        ["xpath=//ul[@id='nav1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"../loginT/indexT.php?logout='1'\")]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e63422f-5196-416a-ad77-6253406a638d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List your car",
+      "targets": [
+        ["linkText=List your car", "linkText"],
+        ["css=a", "css"],
+        ["css=.current > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List your car')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ListCar.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d8f8c5bf-4cbf-4372-a88c-5855d79e8862",
+    "name": "ListYourCar_AccessOK",
+    "commands": [{
+      "id": "9654a5e0-2e05-43dc-b025-2e8c93095521",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "254779d1-3d65-4541-8f65-e330de2b7b41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fcbd870-9120-4568-91ee-92085cff4957",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../loginT/loginT.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae36e3f4-f42d-4cbf-adde-6b8eb030eb9f",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0103b23-9a2f-40f3-b35b-e32af6f11302",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Trine"
+    }, {
+      "id": "ba836b80-f35c-4cd6-aa0c-157b6e08a300",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe07db54-7c5b-4fd5-8f56-86df28bb41be",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aaa"
+    }, {
+      "id": "a2e710bb-3d84-47ca-8333-ab9550e8c09b",
+      "comment": "",
+      "command": "click",
+      "target": "name=login_user",
+      "targets": [
+        ["name=login_user", "name"],
+        ["css=button[name=\"login_user\"]", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='login_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e142bc-92b1-4802-8c46-8118f4619c0c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List your car",
+      "targets": [
+        ["linkText=List your car", "linkText"],
+        ["css=a", "css"],
+        ["css=.current > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List your car')]", "xpath:link"],
+        ["xpath=//ul[@id='nav1']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../src/ListCar.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f946dc49-1252-469b-b103-b299cb4c8ddf",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo",
+      "targets": [
+        ["id=logo", "id"],
+        ["css=#logo", "css"],
+        ["css=#logo", "css:finder"],
+        ["xpath=//img[@id='logo']", "xpath:attributes"],
+        ["xpath=//div[@id='branding']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4572adb-683a-41b5-bd36-ee1fcf751962",
+    "name": "BookYourCar_AccessOK",
+    "commands": [{
+      "id": "4fa5dfe4-a51c-4ef5-abcc-68d3089f758e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d08d1b87-5717-4bac-8e02-e0844cb7efc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "007d4315-9a51-4b62-938c-32bc6185ae7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"snow\"]",
+      "targets": [
+        ["css=img[alt=\"snow\"]", "css"],
+        ["css=a > img", "css:finder"],
+        ["xpath=//img[@alt='snow']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ec1910-bb2e-4c8b-805d-449c800b87b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=location",
+      "targets": [
+        ["linkText=location", "linkText"],
+        ["css=#\\30 50de859-7f07-468d-b70f-e0c87b86dee6 > .k-link", "css:finder"],
+        ["xpath=//a[contains(text(),'location')]", "xpath:link"],
+        ["xpath=//th[@id='050de859-7f07-468d-b70f-e0c87b86dee6']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//th[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "390cfa60-1b48-4cb3-92d9-bb1e05d85b68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=location",
+      "targets": [
+        ["linkText=location", "linkText"],
+        ["css=#\\30 50de859-7f07-468d-b70f-e0c87b86dee6 > .k-link", "css:finder"],
+        ["xpath=//a[contains(text(),'location')]", "xpath:link"],
+        ["xpath=//th[@id='050de859-7f07-468d-b70f-e0c87b86dee6']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//th[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "158f290f-699a-4ffd-90ed-399f3ce4ee77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=model",
+      "targets": [
+        ["linkText=model", "linkText"],
+        ["css=#\\30 4b40873-144c-42e8-9583-52a1df48d88c > .k-link", "css:finder"],
+        ["xpath=//a[contains(text(),'model')]", "xpath:link"],
+        ["xpath=//th[@id='04b40873-144c-42e8-9583-52a1df48d88c']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//th[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e035525-04c4-429d-8b97-05c7d7099064",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo",
+      "targets": [
+        ["id=logo", "id"],
+        ["css=#logo", "css"],
+        ["css=#logo", "css:finder"],
+        ["xpath=//img[@id='logo']", "xpath:attributes"],
+        ["xpath=//div[@id='branding']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8e4beba-bca0-4956-816e-499a91af56ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["327b759a-873d-4cd0-9077-24d498a66ddf"]
+  }],
+  "urls": ["http://localhost:63342/", "http://localhost:63342/Buro_ST/DLS_Mandatroy/home.php?_ijt=c1nnts808nt8460cqghb7quu05"],
+  "plugins": []
+}
