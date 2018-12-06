@@ -4,5 +4,5 @@ sudo: false
 notifications: false
 
 script: 
-cd Buro_ST 
-mvn clean verify
+  - cd Buro_ST 
+  - mvn clean verify
